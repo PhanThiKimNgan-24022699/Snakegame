@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#f4f4f4;
+            font-family:Arial;
+        }
+
+        .container{
+            text-align:center;
+        }
+
+        canvas{
+            border:3px solid black;
+            background:white;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+<h2>Snake Game</h2>
+
+<p>Điểm: <span id="score">0</span></p>
+
+<canvas id="game" width="600" height="600"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
